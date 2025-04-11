@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+.animated-image {
+  animation: updown 3s linear infinite;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+.animated-icon {
+  animation: icon-updown 3s linear infinite;
+}
+@keyframes icon-updown {
+  0% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
