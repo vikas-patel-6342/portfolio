@@ -43,7 +43,7 @@ function Hero() {
 
   return (
     <div
-      id="hero"
+      id="home"
       className="relative w-full bg-cover bg-center h-[60vh] lg:h-screen"
       style={{
         backgroundImage: `url(${bannerImage})`,
