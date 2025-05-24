@@ -7,13 +7,13 @@ function Experience() {
       id: 1,
       post: `Front-End Developer`,
       details: ` As a Front-End Developer, I designed and maintained responsive and user-friendly interfaces using HTML, CSS, Bootstrap, and JavaScript. I implemented mobile-first design principles and ensured cross-browser compatibility to improve accessibility. Working closely with backend developers, I integrated functionality to enhance user experience. I also conducted thorough UI testing to identify and resolve usability issues, delivering a seamless and high-performance interface.`,
-      duration: `April 2024 – January 2025`,
+      duration: `April 2024 – April 2025`,
     },
     {
       id: 2,
       post: `Technical Product Associate`,
       details: `As a Technical Product Associate, I gathered and analyzed client requirements to ensure product features aligned with business goals. I collaborated with product managers and development teams to define and prioritize tasks, managed workflow to ensure timely delivery, and conducted extensive product testing. By identifying bugs and working with cross-functional teams, I helped improve overall product performance. I also delivered product training sessions to internal teams and clients to support smooth onboarding and adoption.`,
-      duration: `April 2024 – January 2025`,
+      duration: `April 2024 – April 2025`,
     },
   ];
   return (

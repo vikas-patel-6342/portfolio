@@ -10,6 +10,7 @@ import js from "../assets/logo/js-logo.svg";
 import react from "../assets/logo/react-logo.svg";
 import php from "../assets/logo/php.svg";
 import mysql from "../assets/logo/mysql-logo.svg";
+import github from "../assets/images/github.svg";
 import software from "../assets/logo/software-testing.svg";
 
 function Skills() {
@@ -22,6 +23,7 @@ function Skills() {
     { name: "React.js", image: react, alt: "react-logo" },
     { name: "Basic of Php", image: php, alt: "php-logo" },
     { name: "Basics of MySql", image: mysql, alt: "mysql-logo" },
+    { name: "Git and Github", image: github, alt: "github-logo" },
     { name: "Software Testing", image: software, alt: "testing-logo" },
   ];
   return (
