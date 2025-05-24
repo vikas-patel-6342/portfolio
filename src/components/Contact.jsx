@@ -19,7 +19,7 @@ const Contact = () => {
             <h1 className="text-3xl sm:text-4xl font-bold m-2.5 text-[#FF0066]">
               Contact Me
             </h1>
-            <div className="bg-black/30 backdrop-blur-md border border-white/10 rounded-2xl shadow-lg p-3 mb-2.5 md:m-2.5 animated-icon">
+            <div className="bg-black/30 backdrop-blur-md border border-white/10 rounded-2xl shadow-lg p-3 mb-2.5 md:m-2.5">
               <div className="text-white flex items-center p-2.5">
                 <img className="h-6 pr-2.5" src={phone} alt="phone-icon" />
                 <a

@@ -42,7 +42,7 @@ function Projects() {
               reflect my ability to solve problems, build interactive UIs, and
               manage complete workflows from planning to deployment.
             </p>
-            <div className="md:grid md:grid-cols-3 animated-icon pb-2.5">
+            <div className="md:grid md:grid-cols-3 pb-2.5">
               {projects ? (
                 projects.map((project) => (
                   <div

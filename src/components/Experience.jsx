@@ -31,7 +31,7 @@ function Experience() {
             </h2>
             <p className="text-sm text-white m-2.5">Noida, India</p>
 
-            <div className="md:grid md:grid-cols-2 animated-icon pb-2.5">
+            <div className="md:grid md:grid-cols-2 pb-2.5">
               {roles ? (
                 roles.map((role) => (
                   <div
