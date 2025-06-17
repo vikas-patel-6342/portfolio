@@ -27,7 +27,7 @@ function Projects() {
   ];
   return (
     <div id="projects" className="bg-[#070a18]">
-      <Framermotion>
+      <>
         <div
           className="bg-cover md:grid px-4 sm:px-6 lg:px-8"
           style={{ backgroundImage: `url(${skillBackground})` }}
@@ -65,7 +65,7 @@ function Projects() {
             </div>
           </div>
         </div>
-      </Framermotion>
+      </>
     </div>
   );
 }
